@@ -1,0 +1,35 @@
+{
+  "name": "textrefine-native",
+  "version": "1.0.0",
+  "description": "React Native version of TextRefine - Polish your messages before you send",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "build-android": "cd android && ./gradlew assembleRelease",
+    "build-ios": "cd ios && xcodebuild -configuration Release"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-native": "^0.74.0",
+    "@react-native-picker/picker": "^2.6.1",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/native-stack": "^6.11.2",
+    "react-native-gesture-handler": "^2.16.1",
+    "react-native-linear-gradient": "^2.8.1",
+    "react-native-screens": "^3.31.1"
+  },
+  "devDependencies": {
+    "@react-native/metro-config": "^0.74.84",
+    "@types/react": "^18.3.3",
+    "@types/react-native": "^0.73.0",
+    "typescript": "^5.3.3",
+    "metro": "^0.80.8",
+    "babel-jest": "^29.7.0",
+    "@babel/core": "^7.24.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
